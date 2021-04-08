@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>FPI</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link href="./css/fpi.css" rel="stylesheet">
+        <script>
+            $(function() {
+                
+            });
+        </script>
+    </head>
+    <body>
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+                <h1 class="display-4">FingerPrint UPI</h1>
+                <p class="lead">Transfer money with your hand, with none other.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm"></div>
+                <div class="col-sm">
+                    <h5>Review your payment</h5>
+                    <br />
+                    <form class="form-signin">
+
+                        <div class="alert alert-primary" role="alert">
+                            Success ! Payment successfull.
+                          </div>
+
+                        <div class="form-group">
+                            <label for="bankDetails1">Vendor Details</label>
+                            <input type="text" class="form-control" disabled id="bankDetails1" value="888XXXXXX22@amazonpay">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bankDetails2">Customer Details</label>
+                            <input type="text" class="form-control" disabled id="bankDetails2" value="999XXXXXX22@amazonpay">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="amount">Amount to pull</label>
+                            <input type="text" class="form-control" disabled id="amount" value="50">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bill">Bill Details</label>
+                            <input type="text" class="form-control" disabled id="bill" value="Vegetables...">
+                        </div>
+
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">Home</button>
+                    </form>
+                </div>
+                <div class="col-sm"></div>
+            </div>
+        </div>    
+    </body>
+</html>

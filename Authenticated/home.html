@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>FPI</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link href="./css/fpi.css" rel="stylesheet">
+        <script>
+            $(function() {
+                $(".list-group-item").on('click',function(){
+                    $(".list-group-item").removeClass("active");
+                    $(this).addClass("active");
+                });
+            });
+        </script>
+    </head>
+    <body class="text-center">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">FingerPrint UPI</h1>
+                <p class="lead">Transfer money with your hand, with none other.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm"></div>
+                <div class="col-sm">
+                    <h5>Choose Your Customer :</h5>
+                    <br />
+                    <ul class="list-group">
+                        <li class="list-group-item active">Customer 1</li>
+                        <li class="list-group-item">Customer 2</li>
+                    </ul>
+                    <br />
+                    <form class="form-signin" action="amount.html">
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">Continue</button>
+                    </form>
+                </div>
+                <div class="col-sm"></div>
+            </div>
+        </div>    
+    </body>
+</html>
